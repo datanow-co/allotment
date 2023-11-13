@@ -71,7 +71,7 @@ export const PersistSizes: Story<{ numViews: number; vertical: boolean }> = ({
         console.log("write_sizes", sizes);
         localStorage.setItem("sizes", JSON.stringify(sizes));
       }, 100),
-    []
+    [],
   );
 
   useEffect(() => {
