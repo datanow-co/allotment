@@ -2,6 +2,64 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/datanow-co/allotment/compare/v1.20.2...v1.21.0) (2024-06-17)
+
+
+### Features
+
+* add classname `split-view-sash-dragging` for top-level container ([#536](https://github.com/datanow-co/allotment/issues/536)) ([a59c774](https://github.com/datanow-co/allotment/commit/a59c774eec366070614bd95033157839139b0263))
+* add layout priority prop ([#267](https://github.com/datanow-co/allotment/issues/267)) ([f8bb905](https://github.com/datanow-co/allotment/commit/f8bb905085faf85a738e8d4ac5e4899964ef358f))
+* add split-view-separator-border class ([#406](https://github.com/datanow-co/allotment/issues/406)) ([8843ff4](https://github.com/datanow-co/allotment/commit/8843ff450e1021393f839882be5ff17cbe526d0e))
+* add stable classnames to child elements ([#375](https://github.com/datanow-co/allotment/issues/375)) ([326f771](https://github.com/datanow-co/allotment/commit/326f771d9c4a3d7dba1fc4f1b1596d50f723a7cd))
+* add support for onDragStart and onDragEnd callbacks ([#576](https://github.com/datanow-co/allotment/issues/576)) ([722e8af](https://github.com/datanow-co/allotment/commit/722e8af9e696d14390dad9d7ffd8b5614d7c58d6))
+* allow customising sash animation duration ([#740](https://github.com/datanow-co/allotment/issues/740)) ([e92b944](https://github.com/datanow-co/allotment/commit/e92b9446d72fc034fc960e0a80901d9137781421))
+* apply overflow hidden to panes ([#271](https://github.com/datanow-co/allotment/issues/271)) ([9d8d7c9](https://github.com/datanow-co/allotment/commit/9d8d7c918d1454a849c7c49968a1873259869246))
+* support disabling separator ([#388](https://github.com/datanow-co/allotment/issues/388)) ([283d01d](https://github.com/datanow-co/allotment/commit/283d01d6d761bc346b3fe871cdda5e81382044bd))
+
+
+### Bug Fixes
+
+* allow setting id on split-view component ([#752](https://github.com/datanow-co/allotment/issues/752)) ([d23cf34](https://github.com/datanow-co/allotment/commit/d23cf345ab36955e70e617ec8e4c7c413ee6f96f))
+* correct dist exports condition ([#784](https://github.com/datanow-co/allotment/issues/784)) ([90b75d2](https://github.com/datanow-co/allotment/commit/90b75d2adb28f2c046abcdecc7402bd28c50dd92))
+* **deps:** update dependency @svgr/webpack to v6.3.1 ([#368](https://github.com/datanow-co/allotment/issues/368)) ([1891e38](https://github.com/datanow-co/allotment/commit/1891e38ca850219910472815752c4bdebcd989e9))
+* **deps:** update dependency @svgr/webpack to v6.4.0 ([#451](https://github.com/datanow-co/allotment/issues/451)) ([7a84e1d](https://github.com/datanow-co/allotment/commit/7a84e1dd80d5efa5f289ec7d33b5fe37927dcf7b))
+* **deps:** update dependency @svgr/webpack to v6.5.0 ([#462](https://github.com/datanow-co/allotment/issues/462)) ([d4fb352](https://github.com/datanow-co/allotment/commit/d4fb352c1c8aefe082a8d1187e3abaeabada8fe0))
+* **deps:** update dependency @svgr/webpack to v6.5.1 ([#477](https://github.com/datanow-co/allotment/issues/477)) ([abd8d19](https://github.com/datanow-co/allotment/commit/abd8d1906079cc05f56f15f1c98592a37147ed95))
+* **deps:** update dependency @svgr/webpack to v7 ([#597](https://github.com/datanow-co/allotment/issues/597)) ([34310e3](https://github.com/datanow-co/allotment/commit/34310e3c7adca62083b0eb47c4aecfbb10d2e425))
+* **deps:** update dependency @vscode/codicons to v0.0.32 ([#382](https://github.com/datanow-co/allotment/issues/382)) ([667e87d](https://github.com/datanow-co/allotment/commit/667e87da10167c03b0dd1b4a49b4ce6d3b3a156f))
+* **deps:** update dependency @vscode/codicons to v0.0.33 ([#603](https://github.com/datanow-co/allotment/issues/603)) ([cdb0890](https://github.com/datanow-co/allotment/commit/cdb0890d417e45d28317c8d0d449ee754d389d8b))
+* **deps:** update dependency eventemitter3 to v5 ([#501](https://github.com/datanow-co/allotment/issues/501)) ([f7114a1](https://github.com/datanow-co/allotment/commit/f7114a1736414de06e888158b7c292631973ac64))
+* **deps:** update dependency prism-react-renderer to v1.3.3 ([#289](https://github.com/datanow-co/allotment/issues/289)) ([2cf01bc](https://github.com/datanow-co/allotment/commit/2cf01bc7ba0f9fd462c3ab5eeb788dd6590b932c))
+* **deps:** update dependency prism-react-renderer to v1.3.5 ([#349](https://github.com/datanow-co/allotment/issues/349)) ([fe48689](https://github.com/datanow-co/allotment/commit/fe4868977239fb8e21583e38b74ac4bfd4a2dd07))
+* **deps:** update dependency use-resize-observer to v9 ([#290](https://github.com/datanow-co/allotment/issues/290)) ([cfedecb](https://github.com/datanow-co/allotment/commit/cfedecb282ae16f024b6a621dd00effeb98b9f98))
+* **deps:** update dependency xterm to v5 ([#436](https://github.com/datanow-co/allotment/issues/436)) ([eea5749](https://github.com/datanow-co/allotment/commit/eea57491ba33687b32416abe28e48c39720a4661))
+* **deps:** update dependency xterm-addon-fit to v0.6.0 ([#435](https://github.com/datanow-co/allotment/issues/435)) ([16a83f1](https://github.com/datanow-co/allotment/commit/16a83f171d1028261a45e9ebead83028d0b52dda))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.19 ([#270](https://github.com/datanow-co/allotment/issues/270)) ([040e77f](https://github.com/datanow-co/allotment/commit/040e77fa6f6af3d63c1f231495ea50de59b92676))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.20 ([#273](https://github.com/datanow-co/allotment/issues/273)) ([33aa52a](https://github.com/datanow-co/allotment/commit/33aa52a54877c663234ca07199dc81a25de87843))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.21 ([#311](https://github.com/datanow-co/allotment/issues/311)) ([07b1b75](https://github.com/datanow-co/allotment/commit/07b1b75f1e9179b90a97d4264933c7a3a63105ad))
+* **deps:** update docusaurus monorepo to v2.0.0-rc.1 ([#354](https://github.com/datanow-co/allotment/issues/354)) ([4158c5b](https://github.com/datanow-co/allotment/commit/4158c5b5fae9079305654ff991626c6f452ea8e7))
+* **deps:** update docusaurus monorepo to v2.0.1 ([#379](https://github.com/datanow-co/allotment/issues/379)) ([586fb5e](https://github.com/datanow-co/allotment/commit/586fb5e0d29313f54a9f7d66674cdbc31f73f58d))
+* **deps:** update docusaurus monorepo to v2.1.0 ([#418](https://github.com/datanow-co/allotment/issues/418)) ([d8770e1](https://github.com/datanow-co/allotment/commit/d8770e19a36b9141e336d97a1f349fea6d1d0d39))
+* **deps:** update docusaurus monorepo to v2.2.0 ([#478](https://github.com/datanow-co/allotment/issues/478)) ([cc99635](https://github.com/datanow-co/allotment/commit/cc996352755e90fb343be797f573869a586ad072))
+* **deps:** update docusaurus monorepo to v2.3.0 ([#542](https://github.com/datanow-co/allotment/issues/542)) ([b6d6726](https://github.com/datanow-co/allotment/commit/b6d67260bcc31586c31d75a546d0103f9a684322))
+* **deps:** update docusaurus monorepo to v2.3.1 ([#547](https://github.com/datanow-co/allotment/issues/547)) ([a2c20d2](https://github.com/datanow-co/allotment/commit/a2c20d2fe1162f4d55f5b77eab7a104e9d89e990))
+* **deps:** update docusaurus monorepo to v2.4.0 ([#593](https://github.com/datanow-co/allotment/issues/593)) ([fa63a3f](https://github.com/datanow-co/allotment/commit/fa63a3f4e12faa891f0cd4c5d3fd561c56b5f5a3))
+* **deps:** update docusaurus monorepo to v2.4.1 ([#611](https://github.com/datanow-co/allotment/issues/611)) ([729d25b](https://github.com/datanow-co/allotment/commit/729d25beff64aea1d57fb96c335c6cd14f5ce9cf))
+* enable pane content focus on mount ([#404](https://github.com/datanow-co/allotment/issues/404)) ([bfb34cd](https://github.com/datanow-co/allotment/commit/bfb34cd562c96c556871c1739c2eab822b470e84))
+* export LayoutPriority as enum and not const enum ([#359](https://github.com/datanow-co/allotment/issues/359)) ([eb5403b](https://github.com/datanow-co/allotment/commit/eb5403b619be3c01fb96502d474e3cefbc508d41))
+* export LayoutPriority enum ([#357](https://github.com/datanow-co/allotment/issues/357)) ([4b85d01](https://github.com/datanow-co/allotment/commit/4b85d01fcd7e46597d5d2a198fb9973f8d6efdfa))
+* export LayoutPriority enum as value not type ([51eb90e](https://github.com/datanow-co/allotment/commit/51eb90e7fd9e8b79787d5a04143d91a327055f7a))
+* forward ref to underlying Pane dom element ([#632](https://github.com/datanow-co/allotment/issues/632)) ([574c1ef](https://github.com/datanow-co/allotment/commit/574c1efcf7c3cc26656a074450a29f16168ac790))
+* handle preferredSize correctly if unit is px ([#552](https://github.com/datanow-co/allotment/issues/552)) ([c02f059](https://github.com/datanow-co/allotment/commit/c02f05909b5d9ff18a051beb352ef37ded04f514))
+* improve esm support ([0512d71](https://github.com/datanow-co/allotment/commit/0512d71ae804736f7f133f02a6e068556f8f73cb))
+* initialize dimensions before first paint ([#526](https://github.com/datanow-co/allotment/issues/526)) ([2706777](https://github.com/datanow-co/allotment/commit/2706777f3a7e84b3f12ad8f9684681e1328041c3))
+* onChange prop can now be updated ([#239](https://github.com/datanow-co/allotment/issues/239)) ([ea96c28](https://github.com/datanow-co/allotment/commit/ea96c28c3e99d149774d8e46359eddb439dcd504))
+* remove code to initialize dimensions before first paint ([#805](https://github.com/datanow-co/allotment/issues/805)) ([3657e2d](https://github.com/datanow-co/allotment/commit/3657e2df6273c9fae8020561f6fe84c2990ad029))
+* sash-disabled class name typo ([#676](https://github.com/datanow-co/allotment/issues/676)) ([73c2115](https://github.com/datanow-co/allotment/commit/73c211519f8dc7a83034708f3f85068d8ebf3456))
+* set text-align to initial for sashes ([#307](https://github.com/datanow-co/allotment/issues/307)) ([aef12f9](https://github.com/datanow-co/allotment/commit/aef12f973e310c016bbf99a20f9193320d7bce79))
+* support removing more than one pane at a time ([#320](https://github.com/datanow-co/allotment/issues/320)) ([8b3b444](https://github.com/datanow-co/allotment/commit/8b3b44497ea9a732c7c7f229701dbe197cc81c64))
+* use custom onReset callback for programatic reset ([978c0be](https://github.com/datanow-co/allotment/commit/978c0be46b1427056b7ecc0101fe2090720354ad))
+
 ## [1.20.2](https://github.com/johnwalley/allotment/compare/v1.20.1...v1.20.2) (2024-05-22)
 
 
